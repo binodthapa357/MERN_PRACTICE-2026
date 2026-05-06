@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Link CSS File-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font 1: Cormorant Garamond(A serif font (classic, elegant style))-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <!--Font 2: DM Mono (A monospace font (coding-style look))-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav>
+            <span class="nav-log">Binod Thapa.</span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <!--Hero Section-->
+    <section class="hero" id="about">
+        <div class="hero-inner">
+            <img src="image.jpg" alt="my_image">
+        </div>
+        <div class="hero-text">
+            <p>Available for work</p>
+            <h1>Binod <em>Thapa.</em></h1>
+            <p class="role"> BIT Student | Web Developer | Passionate about AI & Technology</p>
+            <p class="bio">I craft digital experiences that sit at the intersection of design and technology.
+            With a passion for clean code and bold aesthetics, I build products people actually
+            love to use. Based in Kathmandu, working worldwide.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://github.com/binodthapa357"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/binodthapa357/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/bikashthapa_18/"><i class="fa-brands fa-instagram"></i></a>  
+        </div>
+    </section>
+    <section class="contact-form" id="contact">
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@gmail.com" required>
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            <button type="submit">
+                Send Message
+            </button>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <p>© 2026 Binod Thapa. All right reserved.</p>
+    </footer>
+</body>
+
+</html>
