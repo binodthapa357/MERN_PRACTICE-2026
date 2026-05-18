@@ -5,11 +5,13 @@
     font-family: 'Segoe UI';
 }
 :root {
-    --primary-color: #2c5346;
-    --secondary-color: #e4ca83;
-    --text-dark: #1a1a1a;
-    --text-light: #4c4d4f;
     --background: #fcfcfc;
+    --primary-color: #fe5013;
+    --secondary-color: #fec613;
+    --accent-color: #13c1fe;
+    --text-dark: #1a1a1a;   
+    --text-light: #4c4d4f;
+  
 }
 body {
     background-color: var(--background);
@@ -18,6 +20,12 @@ body {
     max-width: 1200px;
     margin: auto;
 
+}
+.flash-sale {
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    justify-content: center;
 }
 header {
     padding: 0.5rem;
@@ -48,9 +56,17 @@ nav a :hover{
     color: var(--primary-color);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .logo h1 {
-    color: var(--primary-color);
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
     font-size: 1.8rem;
+    color: transparent;
+    background-clip: text;
 }
 
 .cart { 
